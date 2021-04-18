@@ -1,10 +1,488 @@
-Group,Title,Image,Description,Address,Latitude,Longitude,Found Address,Match Quality,Source
-a,Trinity College,https://www.edx.org/sites/default/files/trinity1.jpg,"Not in the link <a href=""http://www.trincoll.edu"" target=""_blank"">view website</a> more not in the link","300 Summit St, Hartford CT 06106",41.745167,-72.69263,"300 SUMMIT ST, HARTFORD, CT, 06106",Exact,US Census
-a,Wesleyan University,https://upload.wikimedia.org/wikipedia/commons/4/41/You_are_here_-_T-shirt.jpg,"<a href=""http://wesleyan.edu"" target=""_blank"">view website</a>",45 Wyllys Ave Middletown CT 06459,41.55709,-72.65691,"45 WYLLYS AVE, MIDDLETOWN, CT, 06459",Exact,US Census
-a,Connecticut College,https://upload.wikimedia.org/wikipedia/commons/4/41/You_are_here_-_T-shirt.jpg,"<a href=""http://conncoll.edu"" target=""_blank"">view website</a>","270 Mohegan Ave, New London CT",41.381435,-72.10469,"270 MOHEGAN AVE PKWY, NEW LONDON, CT, 06320",Match,US Census
-a,Yale University,https://upload.wikimedia.org/wikipedia/commons/4/41/You_are_here_-_T-shirt.jpg,"<a href=""http://yale.edu"" target=""_blank"">view website</a>",149 Elm St New Haven CT,41.309155,-72.92635,"149 ELM ST, NEW HAVEN, CT, 06511",Match,US Census
-a,University of Connecticut-Storrs,https://upload.wikimedia.org/wikipedia/commons/4/41/You_are_here_-_T-shirt.jpg,"<a href=""http://uconn.edu"" target=""_blank"">view website</a>","369 Fairfield Way, Storrs CT 06269",41.80665,-72.25352,"369 FAIRFIELD RD, STORRS, CT, 06269",Match,US Census
-a,Capital Community College,https://upload.wikimedia.org/wikipedia/commons/4/41/You_are_here_-_T-shirt.jpg,"<a href=""http://capitalcc.edu"" target=""_blank"">view website</a>",950 Main St Hartford CT,41.69861,-72.72414,"950 MAIN ST, HARTFORD, CT, 06111",Match,US Census
-b,Dinosaur State Park,https://upload.wikimedia.org/wikipedia/commons/4/41/You_are_here_-_T-shirt.jpg,"<a href=""www.dinosaurstatepark.org/"" target=""_blank"">view website</a>",400 West St Rock Hill CT 06067,41.652546,-72.65743,"400 WEST ST, ROCKY HILL, CT, 06067",Match,US Census
-b,Hammonasset State Park,https://upload.wikimedia.org/wikipedia/commons/4/41/You_are_here_-_T-shirt.jpg,"<a href=""www.ct.gov/deep/hammonasset"" target=""_blank"">view website</a>","1288 Boston Post Road, Madison CT 06443",41.273247,-72.56934,"1288 BOSTON POST RD, MADISON, CT, 06443",Match,US Census
-c,State Capitol Building,https://upload.wikimedia.org/wikipedia/commons/4/41/You_are_here_-_T-shirt.jpg,State government office,"210 Capitol Ave, Hartford CT 06106",41.762848,-72.68245,"210 CAPITOL AVE, HARTFORD, CT, 06106",Exact,US Census
+Longitude,Latitude,Title,TYPE_EXPL,FACILITY_ADDRESS
+-122.058293435779,36.9994461618438,UCSC Health Center,Clinic,"1156 High St, Santa Cruz"
+-122.055616836521,37.0018532814791,Santa Cruz Fire Station 4 – UCSC,Fire Station,1156 High St 95060
+-122.063628998576,36.9990110451841,"University of California, Santa Cruz",School,"1156 High St, Santa Cruz"
+-122.045313534861,36.9786283140394,High St. Community Church,Church,"850 High St, Santa Cruz 95060"
+-122.04724292815,36.9787153772908,Peace United Chuch of Christ,Church,"900 High St, Santa Cruz 95060"
+-122.049277906813,36.9785143713935,Westlake Elementary,School,"1000 High St, Santa Cruz"
+-122.039932826622,36.9874671552603,Georgiana Bruce Kirby Preparatory School,School,"425 Enchinal St, Santa Cruz"
+-122.038981326481,36.9882803806638,Santa Cruz County Special Education,School,"400 Encinal St, Santa Cruz"
+-122.039080838663,36.9878038239488,Santa Cruz County Court,School,"400 Encinal St, Santa Cruz"
+-122.039038904281,36.9880027797539,Santa Cruz County Community School,School,"400 Encinal St, Santa Cruz"
+-122.038831578805,36.9877025175127,Santa Cruz County Office of Education,School,400 Encinal Santa Cruz
+-122.033608201747,36.9879873999383,Community Bridges Elderday ,Rest-Nursing-Group Home,100 PIONEER ST Santa Cruz 95060
+-122.032874928143,36.986028254906,County Warehouse,County Owned Building,220 A Fern St 95060
+-122.034131733865,36.9814476853091,Portuguese Community Hall,Camp/Recreation,216 Evergreen
+-122.030071848312,36.9799800879987,St. Francis Soup Kitchen,Camp/Recreation,109 Amat St
+-122.030369851221,36.9787217974648,Holy Cross Church,Church,"126 High St, Santa Cruz 95060"
+-122.038482694078,36.9872441895393,Santa Cruz County ROP,School,"399 Encinal St, Santa Cruz"
+-122.038534079753,36.983429278214,The Cottage Community School,School,325 Evergreen
+-122.059584496389,36.960416169165,Pacific Collegiate Charter,School,"3004 Mission St., Santa Cruz"
+-122.05571923334,36.9592894671442,Santa Cruz County Warehouse,County Owned Building,2861 Mission St 95060
+-122.043854249379,36.9614204680042,Community Seed-earth Spirit Fellowship,Church,"849 Almar Ave Suite C, Santa Cruz 9506"
+-122.045347497368,36.9564028720734,New Life Center,Church,707 Fair Ave 95060
+-122.048970819166,36.9545990629139,Natural Bridges High School,School,313 Swift Street
+-122.048746664922,36.9534140690691,Gateway School,School,255 Swift St
+-122.065761563275,36.9493689075561,"University of California, Santa Cruz",School,"115 McAllister Way, Santa Cruz"
+-122.037747843712,36.9683498972778,Sutter Health Walk-In Clinic ,Clinic,"1301 Mission Street, Santa Cruz"
+-122.030989925209,36.9682060652676,Salvation Army Templo de Santa Cruz,Church,"721 Laurel St, Santa Cruz 95060"
+-122.034269748917,36.9654762911181,First United Methodist Church,Church,"250 California St, Santa Cruz 95060"
+-122.034535212517,36.9655645978057,Spring Hill Advanced School,School,"250 California St, Santa Cruz"
+-122.037257823715,36.9600228574743,Word Of Life Church Of God In Christ,Church,"231 Wilkes Circle, Santa Cruz 95060"
+-122.038336284665,36.9580587651016,Garfield Park Library,Library,"705 Woodrow Ave, Santa Cruz"
+-122.043326530494,36.9617932005179,Santa Cruz Fire Station 3,Fire Station,335 Younglove Ave 95062
+-122.040285052135,36.9651440041731,Bay View Elementary,School,"1231 Bay St, Santa Cruz"
+-122.027096634932,36.9748554022733,Kaiser Permanente Clinic - Santa Cruz,Clinic,115 Locust Street Santa Cruz 95060
+-122.028828159305,36.9750273222338,Santa Cruz Community Health Center ,Clinic,"250 Locust St, Santa Cruz"
+-122.028597422724,36.9745564386805,Central/Downtown Library,Library,"224 Church St, Santa Cruz"
+-122.026147219589,36.976527581583,Veterans Memorial Building,Camp/Recreation,842 Front St S95060
+-122.028806037201,36.9734549864089,Santa Cruz Fire Station 1,Fire Station,711 Center St 95060
+-122.029085677335,36.9736837927888,Santa Cruz Civic Auditorium,Camp/Recreation,307 Church St SC 95060
+-122.027826363708,36.9734121902311,PREGNANCY RESOURCE CENTER,Clinic,138-B WALNUT AVE
+-122.028454832959,36.9739077919196,Prophet Elias Greek Orthodox,Church,"223 Church St, Santa Cruz 95060"
+-122.0255824996,36.9747560851398,Museum of Art & History (MAH),Camp/Recreation,705 Front St 95060
+-122.028055330343,36.9712165288627,Progressive Missionary Baptist,Church,"517 Center St, Santa Cruz 95060"
+-122.02767825866,36.9694017388551,Louden Nelson Community School,School,301 Center Street
+-122.02605390546,36.972175728218,Planned Parenthood,Clinic,"1119 Pacific Avenue, Santa Cruz"
+-122.027331279939,36.9720109596885,Calvary Episcopal Church,Church,"532 Center St, Santa Cruz 95060"
+-122.022175913302,36.9781487710848,County Government Center,County Owned Building,701 Ocean St 95060
+-122.020829401686,36.9773181702974,Doctors On Duty,Clinic,"615 Ocean St, Santa Cruz"
+-122.044032215801,36.9776172289212,Messiah Lutheran,Church,"801 High St, Santa Cruz 95960"
+-122.032582934197,36.9767585574348,Vintage Faith Church,Church,"350 Mission St, Santa Cruz 95060"
+-122.035449637643,36.9743015211445,Mission Hill Middle,School,"425 King St, Santa Cruz"
+-122.029079391684,36.9781311706273,Zen Center,Church,"113 School St., Santa Cruz 95060"
+-122.029201678461,36.9775973632944,Holy Cross,School,"150 Emmet St, Santa Cruz"
+-122.029302706973,36.9770969000763,Santa Cruz City Schools Office,School,133 Mission St
+-122.035909587072,36.9710720405752,Christian Life Center,Church,"1009 Mission St, Santa Cruz 95060"
+-122.03256730672,36.9700663390787,Santa Cruz High,School,"415 Walnut St, Santa Cruz"
+-122.027358690096,36.9676984388104,Santa Cruz Police Department,Police Station,155 Center Street
+-122.027441545247,36.96635598542,Congregation Koll Tefillah,Church,"200 Washington Street, Santa Cruz"
+-122.024504127191,36.9652130507375,Sunshine Villa,Rest-Nursing-Group Home,80 Front St Santa Cruz Ca  95060
+-122.018167410779,36.966398065494,Beach Flats Clinic,Clinic,"302 Riverside Ave, Santa Cruz"
+-122.016358230131,36.9915019178491,Santa Cruz County Clinic- Santa Cruz,Clinic,"1080 Emeline Ave, Santa Cruz"
+-122.015771663495,36.9915265165061,County Health Dept DOC,EOC,1080 Emeline 95062
+-122.017134781073,36.9911107280574,County Offices,County Owned Building,1020 Emeline Ave 95060
+-122.030453512794,36.98499296507,HPHP-Coral Street Clinic,Clinic,"115-A Coral St, Santa Cruz"
+-122.030483590474,36.9848879874321,Homeless Shelter,County Owned Building,115 Coral St 95060
+-122.023852903462,36.979853432715,County Jail,County Owned Building,259 Water St 95060
+-122.022219193862,36.9796232582382,County Probation Office,County Owned Building,303 Water St 95060
+-122.020140356029,36.9810053358477,County Offices Child Support Services,County Owned Building,440 May Ave 95060
+-122.020092354482,36.980677922045,County Offices Child Support Services,County Owned Building,420 May Ave 95060
+-122.004114625507,36.9902964151463,Church Of Latter Day Saints,Church,"220 Elk St, Santa Cruz 95065"
+-122.003503475901,36.9895448530276,Church Of Christ,Church,"637 Pacheco Ave, Santa Cruz 95065"
+-121.996021890796,36.9906354435653,De Laveaga Elementary,School,"1145 Morrissey Blvd, Santa Cruz"
+-122.009387582725,36.9840128697579,Branciforte Middle,School,"315 Poplar St, Santa Cruz"
+-122.00743607572,36.982851087843,Trinity Presbyterian Church,Church,"420 Melrose Ave, Santa Cruz 95062"
+-121.99834869377,36.987180797262,Santa Cruz Community Church,Church,"411 Roxas St, Santa Cruz 95062"
+-121.998583100115,36.987258223132,Phoenix Community School,School,411 Roxas Ave
+-121.998077378769,36.9870539265358,Seabright Community School,School,411 Roxas Ave
+-121.995549574989,36.9875769245704,Santa Cruz Adult Education,School,"319 La Fonda Ave, Santa Cruz"
+-121.992903227657,36.9857872077331,Harbor High,School,"300 La Fonda Ave, Santa Cruz"
+-121.99053026168,36.9869205908291,SCCS Transport & Maintenance Yard,School,300 La Fonda
+-121.995901736133,36.9951261740422,Santa Cruz Regional 9-1-1,County Owned Building,495 Upper Park Rd 95065
+-121.996086821627,36.9953256416075,City of Santa Cruz Emergency Ops Center,EOC,495 Upper Park Rd 95065
+-122.005289530675,36.9837828011842,Alexandria Victoria Assisted Living,Rest-Nursing-Group Home,226 Morrissey Blvd S.C.  95062
+-121.997619434746,36.9823399870507,Sutter Health / PAMF Urgent Care,Clinic,"2025 Soquel Avenue, Santa Cruz"
+-122.013650387466,36.9811346855646,Monarch Elementary,School,840 North Branciforte Avenue
+-122.013798396145,36.9808103968939,Ark Independent Studies,School,840 North Branciforte Avenue
+-122.012316259431,36.9811214722938,Alternative Family Education,School,840 North Branciforte Avenue
+-122.013730314532,36.9809715104847,Costanoa Continuation High,School,840 North Branciforte Avenue
+-122.010972018885,36.9807925731049,Church Of Scientology,Church,"1729 Seabright Ave, Santa Cruz 95062"
+-122.01227630274,36.979284667584,Santa Cruz Fire Station 2,Fire Station,1103 Soquel Ave 95062
+-122.012055876606,36.9772477415363,Maple House,Rest-Nursing-Group Home,"410 Pennsylvania Ave, S.C. 95062"
+-122.011033070491,36.9780316979552,Seventh Day Adventist,Church,"1024 Cayuga St, Santa Cruz 95062"
+-122.009339866027,36.9763171938744,Bayside Baptist Church,Church,"1335 Seabright Ave, Santa Cruz 95062"
+-122.007651117026,36.9796388242708,Darwin House,Rest-Nursing-Group Home,707 Darwin St Santa Cruz Ca  95062
+-122.007378139771,36.9791554870959,Branciforte Library,Library,"230 Gault St, Santa Cruz"
+-122.006686070184,36.9802528101834,Faith Community Church,Church,"115 S. Morrissey Ave, Santa Cruz 95062"
+-122.006597753799,36.9800019615833,Church Of The Nazarene,Church,"115 S. Morrissey Ave, Santa Cruz 95062"
+-122.008196514151,36.9760797776897,Gault Elementary,School,"1320 Seabright Ave, Santa Cruz"
+-122.004137942459,36.977551913372,Our Lady Star Of The Sea,Church,"515 Frederick St, Santa Cruz 95062"
+-122.00453456068,36.9776545164812,Star Community School,School,515 Frederick St.
+-122.002331689492,36.977092329393,Santa Cruz Bible Church,Church,"440 Frederick St, Santa Cruz 95062"
+-121.995799542795,36.9824071096005,Wellbound of Santa Cruz,Clinic,2128 Soquel Ave
+-122.004994225379,36.9794298337911,La Posada Retirement,Rest-Nursing-Group Home,609 Frederick St Santa Cruz Ca  95062
+-122.005585372991,36.9797137037424,Santa Cruz Children's School,School,"366 Gault St, Santa Cruz"
+-122.006677032528,36.9786967694697,Hanover Guest House,Rest-Nursing-Group Home,813 Hanover St Santa Cruz Ca  95062
+-121.777797908248,36.9379721822228,Freedom Library,Library,"2021 Freedom Blvd, Freedom"
+-121.775690536229,36.9356229241897,Cornerstone United Pentecostal Church,Church,"302 Carey Ave, Freedom 95019"
+-121.786092872733,36.9245926556476,Rolling Hills Middle,School,"130 Herman Ave, Watsonville"
+-121.785251233039,36.9250915655444,Duncan Holbert,School,140 Herman Ave.
+-121.787990402584,36.9224753249269,Church Of Christ,Church,"198 Holm Rd, Watsonville 95076"
+-121.792990221044,36.9271208282848,Watsonville Community Hospital,Hospital,"75 Nielson St, Watsonville"
+-121.792720443156,36.9264583467943,Clinica Del Valle,Clinic,"45 Nielson St, Watsonville"
+-121.7928800234,36.9276017360006,Hospice of Santa Cruz County,Clinic,65 NIELSON ST
+-121.777855240453,36.9299432035818,Satellite Healthcare (Dialysis Center) ,Clinic,40 Penny Lane Ste 1 Wts 95076
+-121.781554771435,36.9302236525496,Freedom Elementary,School,"25 Holly Dr, Freedom"
+-121.785631392731,36.9333758499371,Watsonville Fire Station 2,Fire Station,370 Airport Blvd 95076
+-121.785702051467,36.9334637609552,Watsonville Emergency Operations Center,EOC,370 Airport Blvd 95076
+-121.783700474416,36.9332846797313,Grace Temple,Church,"311 Airport Blvd, Freedom 95019"
+-121.76725187704,36.9261610424729,Lutheran Community Church,Church,"95 Alta Vista Ave, Watsonville 95076"
+-121.760614164886,36.916995781105,Family Faith Center,Church,"801 Freedom Blvd, Watsonville 95076"
+-121.760898781318,36.9192603831192,Valley Convalescent Hospital,Rest-Nursing-Group Home,919 Freedom Blvd Watsonville Ca  95076
+-121.767274606544,36.919784511625,WATSONVILLE POST ACUTE CENTER,Rest-Nursing-Group Home,525 Auto Center Dr Watsonvlle 95076
+-121.767012438236,36.9195067862502,WATSONVILLE NURSING CENTER,Rest-Nursing-Group Home,535 Auto Center Dr Watsonville 95076
+-121.77243325658,36.9216141061992,Starlight Elementary,School,"225 Hammer Dr, Watsonville"
+-121.77325470961,36.9236131913033,Diamond Technology Institute,School,"112 Diamond Drive, Watsonville"
+-121.775448062231,36.9315301097968,Green Valley Christian School,School,"376 S. Green Valley Rd, Watsonville"
+-121.779204700205,36.925979696169,Sutter Health Walk-In Clinic,Clinic,"550 South Green Valley Rd, Watsonville"
+-121.776556905059,36.9304094846111,Planned Parenthood,Clinic,398 S. Green Valley Rd
+-121.769876170572,36.9218696119024,Arthur Road Baptist Church,Church,"360 Arthur Rd, Watsonville 95076"
+-121.769784986753,36.9209649187894,Cesar E. Chavez Middle,School,"440 Arthur Rd, Watsonville"
+-121.768491915793,36.9253512845648,H. A. Hyde Elementary,School,"125 Alta Vista Ave, Watsonville"
+-121.770382840618,36.9224054260478,Christian Science Church,Church,"352 Arthur Rd, Watsonville 95076"
+-121.757545341968,36.9119159702456,La Manzana School,School,18 West Lake
+-121.754268365033,36.9126353115049,Veterans Memorial Building,County Owned Building,215 E Beach St 95076
+-121.751879317116,36.9146042125066,Paloma House Treatment Program,County Owned Building,321 E Beach St 95076
+-121.754631406176,36.9112476543361,United Presbyterian Church,Church,"112 E. Beach St, Watsonville"
+-121.754653169171,36.911282003265,Central Christian School,School,"112 E. Beach St, Watsonville"
+-121.754810551262,36.9107549458639,Oasis High School at Cabrillo Watsonville,School,318 Union Street
+-121.753816422695,36.9119981596072,Salud Para La Gente,Clinic,"204 E. Beach St, Watsonville"
+-121.752463414945,36.9125405072302,Watsonville High,School,"250 E Beach St, Watsonville"
+-121.760539571221,36.9045910498505,Ceiba College Preparatory Academy,School,"260 W. Riverside Dr, Watsonville"
+-121.756862478173,36.907641721713,Watsonville Fire Station 1,Fire Station,115 2nd Street 95076
+-121.750103720706,36.9105072111961,Linscott Charter,School,"220 Elm St, Watsonville"
+-121.749394852454,36.9145331016298,PVUSD Maintenance Facility,School,205 Blackburn St
+-121.74489503767,36.9159410410181,Calvary Christian Center,Church,"524 Rogge St, Watsonville 95076"
+-121.751045867351,36.9071416203722,Apostolic Assembly,Church,"113 E. Front St, Watsonville 95076"
+-121.743169802006,36.9256418867893,Ann Soldo Elementary,School,"1140 Manasco Dr, Watsonville"
+-121.758336030191,36.9102540455904,Health Clinic,County Owned Building,12 W Beach St 95076
+-121.756151401664,36.9128444567121,Bethel Tabernacle,Church,"124 East Lake Ave, Watsonville 95076"
+-121.756161950398,36.9128735112719,Puerto Camino Y Meta,Church,"124 East Lake Ave, Watsonville 95076"
+-121.75592141619,36.9084626277799,County Courthouse Watsonville,County Owned Building,101 Second St 95076
+-121.755549106659,36.9085483321198,Watsonville Main Library,Library,"275 Main St, Ste 100, Watsonville"
+-121.75407792867,36.9197823841636,Mintie White Elementary,School,"515 Palm Ave, Watsonville"
+-121.761524292248,36.9146232788274,St. Patricks Church,Church,"721 Main St, Watsonville 95076"
+-121.760104251924,36.9150530759114,Moreland Notre Dame,School,"133 Brennan St, Watsonville"
+-121.75926510463,36.9114551256415,"WIC (Women, Infant Children)",County Owned Building,18 W Lake Ave 95076
+-121.760896460164,36.9113010914729,Radcliff Elementary,School,"550 Rodriguez St, Watsonville"
+-121.75757556537,36.9135771603788,Brennan Medical Clinic,Clinic,30 Brennan St Watsonville 95076
+-121.754767700802,36.914536851737,Esquela Quetzal,School,241 East Lake
+-121.777492686578,36.9170573060651,Doctors On Duty,Clinic,"1505 Main St, Watsonville"
+-121.782111868463,36.9176095774376,Kaiser Permanente Clinic - Watsonville ,Clinic,1931 Main Street Watsonville 95076
+-121.792207140614,36.9142493618578,Pajaro Valley High,School,"500 Harkins Slough Rd, Watsonville"
+-121.777493997703,36.9139233682328,New School Community Day,School,"165 Harkins Slough Rd, Watsonville"
+-121.77562033803,36.9128306673277,Landmark Elementary,School,"235 Ohlone Parkway, Watsonville"
+-121.783073696862,36.9140779535317,Agriculture Commissioner,County Owned Building,175 West Ridge Dr 95076
+-121.782993465104,36.9129466571349,Encompass / Papas Family Counseling,County Owned Building,225 Westridge 95076
+-121.752713353015,36.9182579835021,E. A. Hall Middle,School,"201 Brewington Ave, Watsonville"
+-121.753392493444,36.918307906246,Watsonville Prep,School,201 Brewington Ave.
+-121.753268980295,36.9158750363523,First Christian Church,Church,"15 Madison St, Watsonville 95076"
+-121.754208965603,36.9169677167699,First Baptist Church,Church,"101 Madison St, Watsonville 95076"
+-121.765185314533,36.9281178409406,Santa Cruz County Clinic - Watsonville ,County Owned Building,1430 Freedom Blvd 95076
+-121.764409968089,36.9274247803819,Children's Medical Services,County Owned Building,1430 Freedom Blvd 95076
+-121.764251933784,36.9271826387388,Freedom Community School,School,1430 Freedom Blvd
+-121.759572636307,36.9234009131849,Church of God,Church,702 Madison St
+-121.757161537391,36.9225799869311,First United Methodist,Church,"229 Stanford St, Watsonville 95076"
+-121.757117314579,36.9242341397724,Montecito Manor,Rest-Nursing-Group Home,311 Montecito Ave Watsonville 95076
+-121.751821672723,36.9271998097347,T. S. MacQuiddy Elementary,School,"330 Martinelli St, Watsonville"
+-121.756905768994,36.9279446943553,All Saints' Episcopal Church,Church,"437 Rogers Ave, Watsonville 95076"
+-121.758161018582,36.9258316630304,Wesley House IV,Rest-Nursing-Group Home,922 Brewington Av
+-121.765335035267,36.9313510423887,Church Of God,Church,"48 Atkinson Lane, Watsonville 95076"
+-121.767162821969,36.9324321918802,Iglesia Bautista Emmanuel,Church,"40 Blanca Lane, Watsonville 95076"
+-121.771309264494,36.9372735703009,CENTRAL COAST SURGERY CENTER,Clinic,160 GREEN VALLEY RD
+-121.770873967137,36.93763931768,Salud at 208 Green Valley,Clinic,208 Green Valley Road Freedom 95019
+-121.770628198026,36.9379827129369,Salud at Valley Verde ,Clinic,252 Green Valley Road Freedom 95019
+-121.76904330865,36.9402117188737,Pajaro Valley Unified School District,School,294 Green Valley Rd
+-121.768707693011,36.9395853949526,Pacific Coast Charter,School,"294 Green Valley Rd, Watsonville"
+-121.768950966041,36.9397635545857,Watsonville/Aptos/Santa Cruz Adult Education,School,"294 Green Valley Rd, Watsonville"
+-122.036030184485,37.0485698828678,Brookdale Scotts Valley,Rest-Nursing-Group Home,100 Lockwood Ln SV 95066
+-122.007515208775,37.0623864764652,Kaiser Permanente Clinic - Scotts Valley ,Clinic,5615 Scotts Valley Dr
+-122.01175515686,37.0569280408106,St Philip Episcopal Church,Church,5271 Scotts Valley Dr 95066
+-122.006577524103,37.0596684971783,AMR - Scotts Valley,AMR,10 Victor Square Scotts Valley
+-122.015748964532,37.0473596997091,Hospice of Santa Cruz ,Clinic,940 Disc Drive Scotts Valley 95066
+-122.028577346703,37.0496300489421,Scotts Valley Library,Library,251 Kings Village Rd
+-122.029198987649,37.0506787972447,Scotts Valley Senior Center,Rest-Nursing-Group Home,370 Kings Village Rd
+-122.028261074198,37.0507319115245,Valley Vineyard Church,Church,360 Kings Village Rd
+-122.019831238855,37.0486292704472,Scotts Valley Fire Station 1,Fire Station,7 Erba Lane 95066
+-122.018937500728,37.0496622409327,Scotts Valley Police Department,Police Station,1 Civic Center Drive
+-122.017904147491,37.0467278850214,Scotts Valley Unified,School,4444 Scotts Valley Dr
+-122.023478975195,37.0459829135234,Scotts Valley Middle,School,"8 Bean Creek Rd, Scotts Valley"
+-121.999252694085,37.0678746973421,Vine Hill Elementary,School,"151 Vine Hill School Rd, Scotts Valley"
+-122.006576240064,37.0674450736293,San Agustin Catholic Church,Church,"257 Glenwood Dr, Scotts Valley 95067"
+-122.005813441217,37.0666531948954,Scotts Valley Fire Station 2,Fire Station,251 Glenwood Dr 95066
+-122.006172270054,37.0723830156715,Scotts Valley High,School,"555 Glenwood Dr, Scotts Valley"
+-122.005003528339,37.0654001152464,Mystic Oaks Residential Care,Rest-Nursing-Group Home,163 Glenwood Dr SV 95066
+-122.001884276714,37.0616324635252,Gateway Bible Church,Church,"5000 Granite Creek Rd, Scotts Valley 9"
+-122.00205997306,37.0614879482527,Baymonte Christian School,School,"5000 B Granite Creek Rd, Scotts Valley"
+-122.001146662136,37.0593442408915,New Hope Church,Church,"4001 Granite Creek Rd, Scotts Valey 95"
+-122.00288306535,37.0588489810923,Montessori Community School,School,"123 S. Navarra Dr, Scotts Valley"
+-122.021279929774,37.0334177596248,Sutter Health Walk-In Clinic ,Clinic,2980 El Rancho Dr. Scotts Valley
+-122.010728598278,37.0488421598871,Regeneration Church / Calvary Chapel,Church,1500 Green Hills Rd
+-121.983082995567,36.9922127738722,Dominican Oaks Senior Housing,Rest-Nursing-Group Home,3400 Paul Sweet Rd Santa Cruz  CA95065
+-121.978446552526,36.992384223202,Central Fire Station 2,Fire Station,3445 Thurber Ln 95065
+-121.986138973284,36.9881646569642,SANTA CRUZ SURGERY CENTER,Clinic,3003 PAUL SWEET RD
+-121.983255575062,36.9883291117154,PREGNANCY RESOURCE CENTER,Clinic,1570 SOQUEL DR
+-121.980017801613,36.988198656128,DIENTES COMMUNITY DENTAL CARE,Clinic,1830 COMMERCIAL WAY Santa Cruz 95065
+-121.978584996649,36.9883279461359,Sutter Health Center,Clinic,"2907 Chanticleer Av, Santa Cruz"
+-121.977277882528,36.9878435428091,Sutter Maternity And Surgery Center,Hospital,"2900 Chanticleer Av, Santa Cruz"
+-121.974030146085,36.9858210993,Good Shepherd Catholic School,School,"2727 Mattison Ln, Santa Cruz"
+-121.982852745562,36.989388087006,Dominican Medical Offices,Clinic,1595 Soquel Drive 95062
+-121.98108423047,36.9904920858662,Cypress Outpatient Surgery Center ,Clinic,1665 Dominincan Way Ste 120
+-121.977003737568,36.9889127924525,Telos House,Rest-Nursing-Group Home,3035 Prather Ln Santa Cruz Ca  95065
+-121.983587096801,36.990172510278,Dominican Hosptial - Dignity Health ,Hospital,1555 Soquel Drive 95062
+-121.984493853664,36.9894632236647,Adrian Annex / Chapel,Church,"1545 Soquel Dr, SC 95065"
+-121.984608161358,36.9882838273378,"SANTA CRUZ ENDOSCOPY CENTER, LLC",Clinic,1505 SOQUEL DR
+-121.9939032085,36.9831749759724,Santa Cruz Psychiatric Health,Clinic,2250 Soquel Ave Santa Cruz 95062
+-121.99127396327,36.9844424927441,Life Spring Preschool,Church,2560 Soquel Av
+-121.991517779408,36.9837552125473,Lutheran Church St Stephens,Church,"2500 Soquel Ave, Santa Cruz 95062"
+-121.986213043595,36.9846993925458,Chrysalis Center,School,987 Bostwick
+-121.984384065479,36.986100587934,Hearts and Hands,Rest-Nursing-Group Home,2990 Soquel Ave Santa Cruz Ca  95062
+-121.985488007962,36.9839745143068,Special Education Preschool,School,"984 Bostwick Ln, Ste 1, Santa Cruz"
+-121.98581076652,36.9838157101819,Ocean Alternative Education Center,School,"984 Bostwick Ln, Ste 6, Santa Cruz"
+-121.985690945637,36.9836037247069,Live Oak Elementary School District Office,School,984 Bostwick
+-121.985801931265,36.9832131598721,Tierra Pacifica Charter,School,"986 Bostwick Ln, Santa Cruz"
+-121.988872614789,36.9819205118397,County Animal Shelter,County Owned Building,2200 7th Ave 95062
+-121.993546198437,36.9791369003644,Mosquito Abatement & Vector Control Office,County Owned Building,640 Capitola Rd 95062
+-121.992215260292,36.9808003875948,VHM Christian,School,"427 Capitola Rd Ext, Santa Cruz"
+-121.981760216887,36.9819772241915,Paradise Villa Inc,Rest-Nursing-Group Home,2177 17th Ave Santa Cruz Ca  95062
+-121.987953148651,36.9780710301293,Santa Cruz Post Acute ,Rest-Nursing-Group Home,1115 Capitola Rd Santa Cruz Ca  95062
+-121.990530459316,36.97015991895,Community Counseling,County Owned Building,941 El Dorado Ave 95062
+-121.987399010334,36.9839506530403,Green Acres Elementary,School,"966 Bostwick Ln, Santa Cruz"
+-121.988972986515,36.977324963072,"Bay School, The",School,"1026 Capitola Road, Santa Cruz"
+-121.988215032222,36.9692190916498,Simpkins Swim Center,Camp/Recreation,979 17th Ave 95062
+-121.986280093135,36.9682541809137,Shoreline Middle,School,"855 17th Ave, Santa Cruz"
+-121.990684036964,36.9641215267953,Santa Cruz Community Health Center ,Clinic,21507 East Cliff Drive Santa Cruz
+-121.984843283676,36.9675110765127,Islamic Center Of Santa Cruz,Church,900 17th Ave
+-121.984414159391,36.9680900645795,Central Fire Station 1,Fire Station,930 17th Ave 95062
+-121.984246884316,36.9667658877649,Center For Conscious Living,Church,"1818 Felt St, Santa Cruz 95062"
+-121.984694204851,36.9652755404702,Del Mar Elementary,School,"1959 Merrill St, Santa Cruz"
+-121.983531231801,36.965093395131,Cypress Charter High,School,"2039 Merrill St, Santa Cruz"
+-121.980033358281,36.96483557412,Driftwood Convalescent Hospital,Rest-Nursing-Group Home,675 24th Ave Santa Cruz Ca  95062
+-121.980504890622,36.9627507039527,Live Oak Library,Library,"2380 Portola Dr, Santa Cruz"
+-121.976173119129,36.9631819184554,Pleasure Point Community Church,Church,"761 26th Ave, Santa Cruz 95062"
+-121.976843421878,36.9625175186564,Camp Santa Cruz,Camp/Recreation,631 26th Ave 95062
+-121.975289979904,36.9606916029243,DPW Lode Street Facility,County Owned Building,2750 Lode St 95062
+-121.978121492976,36.9827664811762,Valley Haven,Rest-Nursing-Group Home,2266 Chanticleer Ave  S.C. 95062
+-121.977674483984,36.9835766065087,Sheriff's Headquarters (Operations/Patrol),County Owned Building,5400 Soquel Ave 95060
+-121.978662629046,36.9845108841275,Santa Cruz County Emergency Ops Center,EOC,5200 Soquel Av.
+-121.978494398345,36.9844502916687,Sheriff's Department Headquarters,County Owned Building,5200 Soquel Av.
+-121.978488726642,36.9836499904188,Sheriff's Headquarters (Forensics/Coroner),County Owned Building,2400 Chanticleer Ave 95060
+-121.979743927891,36.9813594808934,Liberty Baptist Church,Church,"2155 Chanticleer Ave, Santa Cruz 95062"
+-121.981770317617,36.9785624530995,Live Oak Grange #503,Camp/Recreation,1900 17th Ave
+-121.981428704035,36.9793771607733,Harbor Light Church,Church,"2008 17th Ave, Santa Cruz 95062"
+-121.981749261669,36.9761547888493,Live Oak Senior Center,Camp/Recreation,1777 Capitola Rd 95062
+-121.981541647029,36.9761015990036,Rotacare Clinic ,Clinic,1777 CAPITOLA RD Santa Cruz 95062
+-121.979653062354,36.9759998255024,Freedom House Church,Church,2245 Capitola Ave SC 95062
+-121.981974830242,36.9750863501805,Live Oak Elementary,School,"1916 Capitola Rd, Santa Cruz"
+-121.983453085694,36.9724968028413,Chateau Retirement Home,Rest-Nursing-Group Home,1340 17th Ave Santa Cruz Ca  95062
+-121.982365533222,36.9703866944382,Maple House II,Rest-Nursing-Group Home,2000 Brommer St Santa Cruz Ca  95062
+-121.977412714685,36.9684244791634,Flor's,Rest-Nursing-Group Home,1106 Darlene Dr Santa Cruz Ca  95062
+-121.976380442916,36.968780470617,DPW Brommer Yard,County Owned Building,2700 Brommer 95062
+-121.952696561733,36.9926740688392,Main Street Elementary,School,"3400 North Main St, Soquel"
+-121.959249696608,36.9880859894148,Santa Cruz Hope Church,Church,"4525 Soquel Dr, Soquel 95062"
+-121.957716235015,36.9888370529756,Christian Science Reading Room,Church,"3021 Porter St,  Soquel 95062"
+-121.956943983689,36.989117862357,Porter Memorial Library,County Owned Building,3050 Porter St 95073
+-121.956949938591,36.9886513823718,Central Fire Station 3,Fire Station,4747 Soquel Dr 95073
+-121.95362994423,36.9890489864364,Congregational Church Soquel,Church,4951 Soquel Dr. Soquel 95062
+-121.952475725226,36.9907652641888,Christian Science Church,Church,"3200 Center St, Soquel 95062"
+-121.956473481461,36.9882325150573,Tara Redwood School,School,"4746 Soquel Avenue, Soquel"
+-121.956400716701,36.9861078512958,Soquel Elementary,School,"2700 Porter St, Soquel"
+-121.957701224288,36.9851189419546,Seventh Day Adventist,Church,"2501 Porter St, Soquel 95062"
+-121.95956293492,36.9917837100014,Soquel High,School,"401 Old San Jose Rd, Soquel"
+-121.970198558904,36.9823798544712,Chabad By The Sea,Church,2325 S. Rodeo Gulch Rd
+-121.973907814996,36.9696303520101,Coast Chapel,Church,"1275 30th Ave, Santa Cruz 95062"
+-121.957874300149,36.9775393111764,Pacific Coast Manor,Rest-Nursing-Group Home,1935 Wharf Rd Capitola Ca  95010
+-121.957989665826,36.9684571297687,Opal Cliffs Home,Rest-Nursing-Group Home,4795 Opal Cliff Dr Capitola Ca  95010
+-121.959437273753,36.974028964395,Calvary Chapel Capitola,Church,"4575 Capitola Rd, Capitola 95010"
+-121.963944860473,36.9755664133662,Dignity Health Medical Clinic,Clinic,"1820 41st Ave #D, Capitola"
+-121.965324911207,36.9812883922359,Capitola Surgery Center ,Clinic,2265 41st Ave Captiola 95010
+-121.967647383528,36.9787906043269,Satellite Healthcare (Dialysis Center) ,Clinic,3801 Clares Street Captilola 95010
+-121.966553685073,36.9792980233927,America's Job Center,County Owned Building,2045 40th Ave Ste B
+-121.966397933156,36.979305293184,Dominican Home Health ,Clinic,2045 40th Ave Ste A
+-121.95803809832,36.9786673584515,Capitola Library,Library,"2005 Wharf Rd, Capitola"
+-121.959687279278,36.9700369347677,Capitola Community Center,Camp/Recreation,4400 Jade St 95010
+-121.959020628926,36.9698933707128,Opal Cliffs,School,"4510 Jade Street, Capitola"
+-121.953023746313,36.9767774080325,Dignity Health Medical Clinic ,Clinic,"528 Capitola Ave, Capitola"
+-121.953552488523,36.9741160629195,Central Fire Station 4,Fire Station,405 Capitola Ave 95010
+-121.953494908502,36.9748097854229,Capitola Police Department,Police Station,410 Capitola Avenue
+-121.955404861309,36.9823027445935,Heartland Hospice ,Clinic,824 Bay Ave #40 Capitola 95010
+-121.943855768479,36.9827733011576,Shorelife Community Church,Church,"875 Monterey Ave, Capitola 95010"
+-121.948857382356,36.9790209064485,St Josepth's Catholic Community,Church,"435 Monterey Ave, Capitola 95010"
+-121.947309546761,36.9783197103259,New Brighton Middle School Gym,School,"250 Washburn Ave, Capitola"
+-121.947283591929,36.9782056758532,New Brighton Middle School Cafeteria,School,"250 Washburn Ave, Capitola"
+-121.946453941721,36.9800426187777,Soquel Union Elementary,School,620 Monterey Av
+-121.947010516007,36.9795014233857,Soquel Unified Transport & Maintenance Yard,School,620 Monterey Av
+-121.929712762065,36.9912730446993,Temple Beth-el Jewish Community,Church,"3055 Porter Gulch Rd, Aptos 95003"
+-121.941932536432,36.9865771132255,Inner Light Ministries,Church,5630 Soquel Dr. Soquel 95062
+-121.937592211583,36.985071716095,Santa Cruz Montessori,School,"2446 Cabrillo College Dr, Soquel"
+-121.938947207363,36.9847370275039,Mt Calvary Lutheran,Church,"2402 Cabrillo College Dr, Soquel 95062"
+-121.932090785707,36.9894990222511,Santa Cruz Montessori,School,"6230 Soquel Dr, Aptos"
+-121.928839143465,36.9856075684779,Twin Lakes Church,Church,"2701 Cabrillo College Dr, Aptos"
+-121.92887470028,36.9848696916823,Twin Lakes Christian,School,"2701 Cabrillo College Dr, Aptos"
+-121.926689476141,36.9899190674269,Oasis High School at Cabrillo Aptos,School,6500 Soquel Drive Building 350 #358
+-121.92252954627,36.9910520903772,Cabrillo College Horticulture Center,School,6500 Soquel Dr Bldg 5000
+-121.924369567027,36.9886643145061,Cabrillo College Cafeteria,School,6500 Soquel Dr. Bldg 900
+-121.935916117008,36.9901492015447,Kingdom Hall of Johovah's Witnesses,Church,"3125 Park Ave, Soquel 95062"
+-121.92226807368,36.9887078742712,Cabrillo College Health Center,Clinic,6500 Soquel Dr. Bldg
+-121.911084133829,36.9847632659282,Seaview Guest Home #2,Rest-Nursing-Group Home,7364 Mesa Dr Aptos Ca  95003
+-121.908797383533,36.9810042611617,Aptos Public Library,Library,"7695 Soquel Drive, Aptos"
+-121.907909879598,36.9804892711793,First Baptist Church Of Aptos,Church,"7565 Sunset Way, Aptos 95003"
+-121.925598505513,36.9850138953567,Delta Charter,School,"6500 Soquel Dr, Aptos"
+-121.924574532274,36.9877774308754,Cabrillo College Gymnasium,School,6500 Soquel Dr. Bldg 1100
+-121.919010084969,36.9858720522763,Aptos La Selva Fire Station 1,Fire Station,6934 Soquel Dr 95003
+-121.919233796141,36.9847724652106,Mar Vista Elementary,School,"6860 Soquel Dr, Aptos"
+-121.903886935006,36.978363835438,Aptos Village Park Hall,Camp/Recreation,100 Aptos Creek Rd 95003
+-121.909453676214,36.9803354068986,Resurrection Catholic Church,Church,7600 Soquel Dr. Aptos 95003
+-121.921070763822,36.9869762456425,Doctors On Duty,Clinic,6800 Soquel Dr. Aptos
+-121.911463359726,36.9859197972122,Seaview Guest Home #1,Rest-Nursing-Group Home,7321 Mesa Dr Aptos Ca  95003
+-121.91206695881,36.9823115129743,Aegis Assisted Living,Rest-Nursing-Group Home,125 Heather Te #100 Aptos Ca  95003
+-121.89653267845,36.9959804724458,Web of Life Field School,School,"220 Cloister Ln, Aptos 95003"
+-121.944091220748,36.9986484675755,Soquel Leisure Villa,Rest-Nursing-Group Home,4101 Fairway Dr Soquel Ca  95073
+-121.899661624557,36.9783847088431,Sheriff Aptos Station Service Center,Sheriff Sub Station,171 Aptos Village Way 95003
+-121.898184290881,36.9769746896134,Calvery Chapel Of Aptos,Church,"8065 Valencia St, Aptos 95003"
+-121.894787780629,36.9770481686255,Valencia Elementary,School,"250 Aptos School Rd, Aptos"
+-121.884260233613,36.9961094136449,Orchard School,School,"2288 Trout Gulch Rd, Aptos"
+-121.881688864987,36.9777411341136,Aptos Junior High,School,"1001 Huntington Dr, Apton"
+-121.874953051427,36.974351272549,St Andrews  Presbyterian Church,Church,"9850 Monroe Ave, Aptos 95003"
+-121.869963819176,36.977920760177,New Hope Community Church,Church,7200 Freedom Blvd. 95003
+-121.861639126076,36.9847847372129,Unitarian Universalist Fellowship,Church,"6401 Freedom Blvd, Aptos 95003"
+-121.860756436346,36.9778642821383,Aptos High,School,"100 Mariner Way, Aptos"
+-121.870193694761,36.9700713962948,Christ Lutheran Church Of Aptos,Church,10707 Soquel Dr 95073
+-121.90915664653,36.9761801068616,Coastlands Church,Church,280 State Park Dr. Aptos 95003
+-121.887235796316,36.9734968406163,Aptos La Selva Fire Station 2,Fire Station,300 Bonita Dr 95003
+-121.86446154399,36.958065078285,St. Abraham's Classical Christian Academy,School,"1940 Bonita Dr, Aptos"
+-121.863247777705,36.9374760544412,Aptos La Selva Fire Station 3,Fire Station,312 Estrella Ave 95003
+-121.863067231443,36.9377543742677,La Selva Beach Library,Library,"316 Estrella Ave, La Selva Beach"
+-121.863011039952,36.938300633069,La Selva Beach Community Church,Church,"26 Florido Ave, La Selva Beach 95076"
+-121.85016067669,36.9478574136118,Wesley House II,Rest-Nursing-Group Home,121 La Selva Dr La Selva Bch Ca  95076
+-121.850356911594,36.9479809159194,Wesley House III,Rest-Nursing-Group Home,123 La Selva Dr La Selva Bch Ca  95076
+-121.846797568854,36.9264964826011,Renaissance High Continuation,School,"11 Spring Valley Rd, Watsonville"
+-121.838023347257,36.9087579895338,Monterey Bay Academy,School,"783 San Andreas Rd, La Selva Beach"
+-121.781906756,36.9401010015202,Landmark Missionary Baptist Church,Church,"2151 Freedom Blvd, Freedom 95019"
+-121.77206046345,36.9385417198602,Santa Cruz County Career Advancement Charter,School,229 Green Valley Road
+-121.77173705982,36.9382812395823,Sequoia Schools,School,229 Green Valley Road
+-121.770903835924,36.9389702889534,Central Coast Endoscopy Center,Clinic,243 GREEN VALLEY RD Freedom 95019
+-121.792816232335,36.9441320617284,Calabasas Elementary,School,"202 Calabasas Rd, Watsonville"
+-121.800547756726,36.9571428323531,DeWitt Anderson School,School,2716 Freedom Blvd
+-121.772774674564,36.9604565826262,Pinto Lake Park Hall,Camp/Recreation,757 Green Valley Rd 95076
+-121.768857445479,36.9455882722085,Amesti Elementary,School,"25 Amesti Rd, Watsonville"
+-121.753884129405,36.9449841025289,Wilson Yard Facility,County Owned Building,198 Grimmer Rd 95076
+-121.754173933988,36.9459730852904,PVUSD Transportation Yard,School,"196 Grimmer, Watsonville"
+-121.763690798059,36.9613545160524,Church Of Nazerene,Church,"710 Green Valley Rd, Watsonville 95076"
+-121.763954599349,36.9570247959082,Rillera's Guest Home,Rest-Nursing-Group Home,40 Fletcher Ct Watsonville Ca  95076
+-121.742401476542,36.9400723438725,Our Lady Help Of Christian Valley,Church,"2401 East Lake Ave, Watsonville 95076"
+-121.742401476542,36.9400723438725,Our Lady Help Of Christian Valley,Church,"2401 East Lake Ave, Watsonville 95076"
+-121.736543147596,36.9516936750087,JJ Crosetti Hall,Camp/Recreation,2601 E Lake Ave 95076
+-121.736269742508,36.9511312416201,Harvest Building,Camp/Recreation,2601 E Lake Ave 95076
+-121.735385635718,36.9509109464859,Fine Arts Building,Camp/Recreation,2601 E Lake Ave 95076
+-121.731257070812,36.9528449451657,Santa Cruz County Fairgrounds Grange Hall,Camp/Recreation,2601 E Lake Ave 95076
+-121.741499308256,36.9383735360088,Lakeview Middle,School,"2350 E. Lake Ave, Watsonville"
+-121.73977063329,36.9403940279358,St. Francis High Salesian College Prep,School,"2400 East Lake Ave, Watsonville"
+-121.764571619377,36.9652691327435,Sheriff South County Service Center,Sheriff Sub Station,790 Green Valley Road 95076
+-121.7315953302,36.9605045601172,Alianza Charter,School,"115 Casserly Rd, Watsonville"
+-121.73351109496,36.9593838512415,Watsonville Charter School of the Arts,School,"75 Whiting Rd, Watsonville"
+-121.810062642941,36.9181618265484,Buena Vista Landfill,County Owned Building,1231 Buena Vista Dr
+-121.817619727581,36.8665554836505,CalFire Station 42 Pajaro Dunes,Fire Station,50 Rio Boca Rd
+-121.810515667295,36.913930064156,Rountree Detention Facility,County Owned Building,90 Rountree Ln 95076
+-121.876797760906,36.9599428361413,Rio del Mar Elementary,School,"819 Pinehurst Dr, Aptos"
+-121.87440475109,36.9584514160105,Aptos Community United Methodist Church,Church,221 Thunderbird Dr. Aptos 95003
+-122.273339116047,37.0901588968633,Big Creek Lumber / Davenport,Camp/Recreation,3564 Hwy 1
+-122.219184444067,37.0524208694047,CalFire Station 33 Big Creek,Fire Station,240 Swanton Rd 95017
+-122.196027103579,37.0121491501059,CalFire Station 37 Davenport Volunteer,Fire Station,75 Marine View Ave 95060
+-122.196104415786,37.0119964297543,Sheriff North Coast Service Center,Sheriff Sub Station,75 Marine View Ave 95017
+-122.194324683388,37.0119778512104,Pacific Elementary,School,"50 Ocean St, Davenport"
+-122.192929321157,37.0124367609025,Davenport Resource Center,County Owned Building,150 Church St Davenport 95060
+-122.018224964327,36.9928582774927,County Offices,County Owned Building,1400 Emeline Ave 95060
+-122.04236850229,37.0073043477223,CalFire Station 38 Paradise Park,Fire Station,211 Keystone Wy
+-122.047304738533,37.0424607439417,Juvenile Hall Clinic,Clinic,"3650 Graham Hill Road, Felton"
+-122.048296837508,37.0440658461786,Juvenile Hall,County Owned Building,3650 Graham Hill Rd 95018
+-122.073108279123,37.0067667841688,Santa Cruz Waldorf School,School,"2190 Empire Grade, Santa Cruz"
+-122.139028135707,37.0511649660501,CalFire Station 32 Martin Volunteer,Fire Station,975 Martin Rd 95060
+-122.073445825038,37.0514773772241,Dignity Health Medical Group,Clinic,"6215 Highway 9, Felton"
+-122.073691943255,37.0511265305409,Felton Community Hall,Camp/Recreation,6191 Hwy 9
+-122.073874940286,37.0509635394081,Felton Fire Station,Fire Station,131 Kirby St 95018
+-122.074335741612,37.0529331338504,Felton Library,Library,"6299 Gushee St, Felton"
+-122.072823556398,37.0510170907341,St Lawrence Orthodox Church,Church,"6192 Highway 9, Felton 95018"
+-122.072433601927,37.0510506591989,St Lawrence Academy,School,"6180-a Hwy 9, Felton"
+-122.073788032505,37.0487661491487,CalFire Station 39 CZU HQ,Fire Station,6059 Hwy 9 95018
+-122.073793599128,37.0488153985364,CZU Emergency Command Center,EOC,6059 Hwy 9 95018
+-122.073777949547,37.0474158553833,St Johns Church,Church,120 Russell Ave  9 Felton 95018
+-122.072743291783,37.0492113032094,Felton Presbyterian Church,Church,"6090 Highway 9, Felton 95018"
+-122.066403341767,37.0504028588342,Sheriff San Lorenzo Valley Service Center,Sheriff Sub Station,6062 Graham Hill Road 95018
+-122.066157816966,37.0494536361655,Felton Bible Church,Church,5999 Graham Hill Rd
+-122.075817645664,37.0447731343482,Kingdom Hall Johovah's Witness,Church,"5761 Valley Dr, Felton 95018"
+-122.023071917769,37.0276465139047,Moose Lodge # 545,Camp/Recreation,2470 El Rancho 95067
+-122.030552503354,37.0165655683212,Brook Knoll Elementary,School,"151 Brook Knoll Dr, Scotts Valley"
+-122.037098377174,37.0624520783945,Fasting Prayer Chapel,Church,"997 Lockhart Gulch Rd, Scotts Valley 9"
+-122.08726378718,37.0708475397756,Mt Cross Ministries Lutheran Camp,Church,7795 Hwy 9 95005
+-122.080044151233,37.0655832275167,Trinity Bible Church,Church,"7301 Highway 9, Felton 95018"
+-122.056633401368,37.0672324726338,Zayante Fire Station 1,Fire Station,7700 E Zayante Rd 95018
+-122.081770535181,37.063454039141,San Lorenzo Valley Elementary,School,"7155 Hwy 9, Felton"
+-122.08176240175,37.0640278304107,San Lorenzo Valley Middle,School,"7179 Hacienda Wy, Felton"
+-122.083032429067,37.0624268495063,San Lorenzo Valley High,School,"7105 Hwy 9, Felton"
+-122.082144676882,37.0606379172464,Ludlow Preschool,School,7101 Highway 9
+-122.084257100413,37.0615625698498,San Lorenzo Valley Charter,School,"7101 Hwy 9, Felton"
+-122.079525631946,37.0590441390612,Redwood Christian Center,Church,"6869 Highway 9, Felton 95018"
+-122.081705461709,37.0808259003151,Highlands Park Hall,County Owned Building,8500 Hwy 9 95005
+-122.062778441617,37.0857198131049,Quail Hollow Ranch,Camp/Recreation,800 Quail Hollow Rd 95018
+-122.051673360831,37.1033579356902,Zayante Fire Station 2,Fire Station,"7700 E Zayante Rd, Felton, CA 95018"
+-122.079218022509,37.0911481116908,Ben Lomond Transfer Station,County Owned Building,9835 Newell Creek Rd 95005
+-122.088510322092,37.0909300188594,Church Of Jesus Christ LDS,Church,9545 Love Creek Rd
+-122.088625805888,37.089556523732,Ben Lomond Fire Station 1,Fire Station,9430 Hwy 9 95005
+-122.088251570499,37.0889878242496,Valley Churches United Missions,Church,9400 Hwy 9
+-122.087096483966,37.0886363917185,St Andrews Episcopal Church,Church,"101 Riverside Ave, Ben Lomond 95005"
+-122.074255751521,37.08474887385,Ponderosa High School,School,305 Marion Ave
+-122.074405128412,37.0844326253603,San Lorenzo Valley Unified District Office,School,325 Marion Av
+-122.095727629815,37.0930105212927,Saints Peter & Paul Orthodox Church,Church,"9980 Highway 9, Ben Lomond 95005"
+-122.144141454485,37.0806400184727,Bosch Baha'i Faith,Church,"500 Comstock Lane, Santa Cruz 95060"
+-122.145187941392,37.0651485449424,Presbyterian Church Of Bonny Doon,Church,"7065 Bonny Doon Rd, Santa Cruz 95060"
+-122.122383740697,37.057515796445,CalFire Station 34 McDermitt Volunteer,Fire Station,7276 Empire Grade 95060
+-122.122538091636,37.0577815661416,CalFire Station 31 Fall Creek,Fire Station,7272 Empire Grade 95060
+-122.171542293155,37.1289262567096,CalFire Camp 80 Ben Lomond,Fire Station,13575 Empire Grade 95060
+-122.122024522078,37.1255565271691,Sheriff Boulder Creek Service Center,Sheriff Sub Station,13210 Central Ave 95006
+-122.122056807423,37.1258221340397,Boulder Creek Fire Station 1,Fire Station,13230 Central Ave 95006
+-122.121528245704,37.1239451752523,Boulder Creek Community Church,Church,13090 Highway 9 # E Boulder Creek 9506
+-122.124263808675,37.1222959929473,Boulder Creek Elementary,School,"400 Lomond St, Boulder Creek"
+-122.122510857783,37.1221449668301,St. Micheals Church,Church,"13005 Pine St, Boulder Creek 95060"
+-122.121901473002,37.1209677198141,Boulder Creek United Methodist Church,Church,"12855 Boulder St, Boulder Creek 95060"
+-122.123780383147,37.1276685171255,Boulder Creek Library,Library,13390 W Park St 95006
+-122.158312438779,37.1458917279628,CalFire Station 23 Jamison Creek,Fire Station,16115 Jamison Creek Rd 95006
+-122.135085223504,37.1684881626827,Redwood Elementary,School,"16900 N. Hwy 9, Boulder Creek"
+-122.132196146087,37.2608066777539,CalFire Station 21 Saratoga Summit,Fire Station,12900 Skyline Blvd 95030
+-122.067763621428,37.2049902980731,CalFire Station 29 Las Cumbres Volunteer,Fire Station,18271 Las Cumbres 95030
+-122.019988923003,37.1476312201705,Zayante Fire Station 3,Fire Station,15585 Upper Zayante
+-122.009013075904,37.0820049155175,Redwood Glen Camp And Conference Center,Camp/Recreation,3100 Bean Creek Rd
+-121.944270244474,37.1253849195955,Loma Prieta Community Center,Camp/Recreation,23800 Summit Road 95033
+-121.944772289248,37.1260636541453,C. T. English Middle,School,"23800 Summit Rd, Los Gatos"
+-121.94298314763,37.1253486847485,Loma Prieta Elementary,School,"23800 Summit Rd, Los Gatos"
+-121.936392824715,37.1236449437394,Mountain Bible Church of Loma Prieta,Church,23946 Summit Rd
+-121.974721433547,37.1420853670344,CalFire Station 36 Loma Prieta Volunteer,Fire Station,"17445 Old Summit Rd, Los Gatos"
+-121.906215435563,37.1078489123452,CalFire Station 47 Burrell,Fire Station,"25050 Highland Wy, Los Gatos, CA 95030"
+-121.963029473429,37.0718396292434,Branciforte Fire Station 2,Fire Station,310 Rider Ridge Rd 95065
+-121.991345345292,37.024678080393,Happy Valley Elementary,School,"3125 Branciforte Dr, Santa Cruz"
+-121.99385028126,37.0189746282676,Branciforte Fire Station 1,Fire Station,2711 Branciforte Dr 95065
+-121.998807400661,37.0139598246733,Happy Valley Conference Center,Church,"2159 Branciforte Dr, Santa Cruz 95065"
+-121.952878312741,37.0150180962963,Seventh Day Adventist Camp,Camp/Recreation,"1931 Soquel San Jose Rd, Soquel 95062"
+-121.977510002601,37.0035925696548,Santa Cruz Gardens Elementary,School,"8005 Winkle Ave, Santa Cruz"
+-121.948913913389,37.0257937187445,Mountain Elementary,School,"3042 Old San Jose Rd, Soquel"
+-121.9370263124,37.0468035913278,CalFire Station 43 Soquel,Fire Station,4750 Soquel San Jose Rd 95073
+-121.931191728494,37.0127890993755,Land Of Medicine Buddha,Church,"5800 Prescott Rd, Soquel 95062"
+-121.934264672891,37.0133991125138,Tara Redwood School,School,"5810 Prescott Rd, Soquel"
+-121.866621689089,36.9965542107758,Valencia Park Hall,Camp/Recreation,2555 Valencia Rd 95003
+-121.742416996758,37.0286979368714,Mount Madonna School,School,"491 Summit Rd, Watsonville"
+-121.808604377703,37.0071838737115,De Un Amor,Rest-Nursing-Group Home,460 Eureka Canyon Rd Watsonville 95076
+-121.804074554657,36.989297338889,Corralitos Community Center,Camp/Recreation,30 Browns Valley Rd
+-121.804912754696,36.9892608563104,Corralitos Woman's Club,Camp/Recreation,33 Brown's Valley Rd
+-121.805123193155,36.9908209733558,CalFire Station 49 Corralitos,Fire Station,120 Eureka Canyon 95076
+-121.804727975773,36.9881505292932,Corralitos Community Church,Church,26 Browns Valley Rd 95076
+-121.8185119438,37.002965579983,Salesian Elementary and Jr. High,School,"605 Enos Ln, Corralitos"
+-121.809278642627,36.9873139280692,Corralitos Grange,Camp/Recreation,165 Little Corral Way Wats 95076
+-121.807864615045,36.9760340399609,Bradley Elementary,School,"321 Corralitos Rd, Watsonville"
+-121.807289161469,36.9862827090237,Holy Eucharist Catholic Community,Church,"527 Corralitos Rd, Watsonville 95076"
+-121.741995117409,36.9743123752196,CalFire Station 45 Pajaro Valley,Fire Station,562 Casserly Rd 95076
+-121.766519121437,36.9827732686583,Monte Vista Christian,School,"2 School Way, Watsonville"
+-121.723348402465,36.8653046440157,Hall District Elementary,School,300 Sill Road
+-121.749416917135,36.8993776585062,Pajaro Middle,School,250 Salinas Road
+-121.761772939632,36.8692093618759,Ohlone Elementary,School,21 Bay Farms Road
+-121.753944774929,36.9086938376715,Watsonville Police Department,Police Station,215 Union Street
+-121.988282288297,36.9838294792893,Live Oak School District Transport Shop,School,"966 Bostwick Ln, Santa Cruz"
+-122.075028363509,37.0493321907854,DPW Felton Yard,County Owned Building,201 Hihn St
+-121.760981524804,36.9199985539576,AMR - Freedom,AMR,939 Freedom Bl
+-121.965617207814,36.9707519971334,AMR - Capitola,AMR,3914 Alameda Av
+-122.12171981,37.1263443024754,AMR - Boulder Creek,AMR,13330 Middleton Av
+-122.027290901457,36.9762742961982,AMR - Santa Cruz,AMR,1543 Pacific Av
+-121.94724506362,36.9788505416491,New Brighton Middle,School,"250 Washburn Ave, Capitola"
+-121.924915979397,36.9890575739975,Cabrillo College,School,6500 Soquel Dr.
+-121.735953159886,36.9515177377712,Santa Cruz County Fairgrounds,Camp/Recreation,2601 E Lake Ave 95076
+-122.148433607465,37.0609422715026,Bonny Doon Elementary,School,"1492 Pine Flat, Santa Cruz"
